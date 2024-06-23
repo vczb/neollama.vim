@@ -35,11 +35,11 @@ Here's the refactored "Commands" section in a Markdown table format:
 
 ## Available Commands
 
-| Command          | Description                                   | Arguments |
-| ---------------- | --------------------------------------------- | --------- |
-| `OllamaChat`     | Chat with Ollama                              | 1 string  |
-| `OllamaReset`    | Reset Ollama context                          | None      |
-| `OllamaReadFile` | Read the current file and add to chat context | None      |
+| Command                 | Description                                   | Arguments |
+| ----------------------- | --------------------------------------------- | --------- |
+| `OllamaChat`            | Chat with Ollama                              | 1 string  |
+| `OllamaReset`           | Reset Ollama context                          | None      |
+| _BUG:_ `OllamaReadFile` | Read the current file and add to chat context | None      |
 
 ## License
 
