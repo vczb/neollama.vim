@@ -16,10 +16,13 @@ _Experimental_
 
 ```lua
 -- lazy.nvim
-{
-   "vczb/neollama.vim",
-   opts = {}
-},
+return {
+  "vczb/neollama.vim",
+  config = function()
+    local neollama = require("neollama")
+    neollama.setup()
+  end,
+}
 ```
 
 ## Available commands
