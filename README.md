@@ -10,18 +10,22 @@ _Experimental_
 
 - Ollama
 - curl
-- granite-code:3b model
+- llm model
 
 ## Install via Lazy Vim.
 
 ```lua
 -- lazy.nvim
 return {
-  "vczb/neollama.vim",
-  config = function()
-    local neollama = require("neollama")
-    neollama.setup()
-  end,
+    "vczb/neollama.vim",
+    config = function()
+        local neollama = require("neollama")
+        --[[
+            -- set a custom model
+            neollama.setup({ model = "my-model-name"}) -- default granite-code:3b
+        --]]
+        neollama.setup()
+    end,
 }
 ```
 
