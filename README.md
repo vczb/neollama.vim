@@ -1,4 +1,4 @@
-# neollama.nvim
+# neollama.vim
 
 A Neovim Plugin for AI Language Modeling
 
@@ -17,7 +17,7 @@ _Experimental_
 ```lua
 -- lazy.nvim
 {
-   "vczb/neollama.nvim",
+   "vczb/neollama.vim",
    opts = {}
 },
 ```
