@@ -4,7 +4,7 @@ A Neovim Plugin for AI Language Modeling
 
 ## Status
 
-_Experimental_
+_Ready to use (may contain bugs)_
 
 ## Requirement
 
